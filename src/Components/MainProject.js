@@ -6,9 +6,17 @@ import ShopImg from "../Assets/Shop.jpg"
 import PortfolioImg from "../Assets/Portfolio.jpg"
 import SnakeImg from "../Assets/Snake.jpg"
 import Test from "../Assets/APTITUDE TEST1.png"
+import { useHref } from "react-router-dom"
 
 function MainProject() {
-  return (
+  const redirectSnake = () => {
+    // Replace 'yourLinkHere' with the URL you want to redirect to
+    window.location.href = 'https://yashgajananshete.github.io/Snake_Game/';
+  };
+  const redirectPortfolio = () =>{
+    window.location.href = '/';
+  };
+    return (
     <>
         <div className="main-project">
             <div className="heading">
@@ -28,11 +36,11 @@ function MainProject() {
                     <p id="p3">Shop Management System</p>
                   </div>
                   <div className="ProjectImage">
-                    <img src={PortfolioImg} alt="image4" id="img4"></img>
+                    <img src={PortfolioImg} alt="image4" id="img4" onClick={redirectPortfolio}></img>
                     <p id="p4">Personal Portfolio Website</p>
                   </div>
                   <div className="ProjectImage">
-                    <img src={SnakeImg} alt="image5" id="img5"></img>
+                    <img src={SnakeImg} alt="image5" id="img5" onClick={redirectSnake}></img>
                     <p id="p5">Snake Game With GUI</p>
                   </div>
                   <div className="ProjectImage">
