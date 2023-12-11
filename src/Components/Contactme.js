@@ -1,6 +1,5 @@
 import "./Contactme.css"
 import React from 'react'
-import backg from "../Assets/ContactMe.jpg"
 
 export const Contactme = () => {
   return (

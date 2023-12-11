@@ -1,5 +1,5 @@
 import { Nav } from '../Components/Nav';
-import Footer from '../Components/Footer';
+// import Footer from '../Components/Footer';
 import React from 'react'
 import { Contactme } from '../Components/Contactme';
 
