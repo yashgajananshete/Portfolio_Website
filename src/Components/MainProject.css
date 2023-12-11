@@ -1,0 +1,172 @@
+.main-project{
+    width: 100%;
+    height: fit-content;
+    /* background-color: rgb(20, 20, 46); */
+    /* opacity: 0.7; */
+    padding-top: 125px;
+    border-bottom: 3px solid rgb(150, 129, 129);
+    /* margin-top: 65px; */
+}
+.heading{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading::before{
+    content: " ";
+    background-image: url(https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80);
+    background-size:cover;
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* position:absolute; */
+    z-index: -1;
+    opacity: 0.7;
+}
+.heading h1{
+    font-size: 5rem;
+    /* font-family: 'Outfit', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Noto Serif Vithkuqi', serif;
+    padding: 0.6rem 0 4.5rem;
+    font-weight: 900;
+    color: rgb(253, 247, 154);
+}
+#pp{
+    padding-bottom: 20px;
+    color: burlywood;
+}
+.heading p{
+    font-size: 2rem;
+    /* font-family: 'Outfit', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Noto Serif Vithkuqi', serif;
+    /* padding: 0.3rem 0 1.5rem; */
+    font-weight: 500;
+}
+
+.AllProjects{
+    /* border: 4px solid red; */
+    display: flex;
+   flex-wrap: wrap;
+   /* gap: 30px; */
+   height: fit-content;
+   width: 1100px;
+   justify-content: space-around;
+}
+.ProjectImage{
+    /* border: 5px solid red;  */
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   /* gap: 30px; */
+   height: 350px;
+   /* width: 1100px; */
+   /* justify-content: space-around; */
+}
+#p1, #p2, #p3, #p4, #p5, #p6{
+/* margin-left: 0px;  */
+   width: 300px;
+   color: rgb(245, 255, 167);
+   font-size: 25px;
+   /* border: 5px solid red; */
+   margin: 1px 10px 10px 10px;
+   text-align: center;
+}
+#img1, #img2, #img3, #img4, #img5, #img6 {
+    height: 200px;
+    width: 300px;
+    border: 3px  #d3d14e;
+    border-style:double;
+    padding: 5px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+/* .ProjectImage{
+     border: 5px solid red; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    height: fit-content;
+    width: 1100px;
+    justify-content: space-around;
+}
+.ProjectName{
+     border: 5px solid red; 
+    display: flex;
+    gap: 75px;
+     justify-content: space-around; 
+    width: 500px; 
+    height: fit-content;
+}
+#p1, #p2, #p3{
+     margin-left: 0px; 
+    width: 300px;
+    border: 5px solid red; 
+}
+#img1, #img2, #img3, #img4 {
+    height: 200px;
+    width: 300px;
+    border: 3px solid rgb(171, 199, 101);
+    padding: 5px;
+    margin: 10px 10px 10px 10px;
+}
+#img1, #img2, #img3{
+    margin-top: 30px;
+}
+#img4{
+    margin-bottom: 30px;
+} */
+
+@media screen and (max-width: 1040px) {
+    .AllProjects{
+        /* border: 4px solid red; */
+        display: flex;
+       flex-wrap: wrap;
+       gap: 30px;
+       height: fit-content;
+       width: 100%;
+       /* justify-content: space-around; */
+    }
+    #pp{
+        margin-left: 20px;
+    }
+    .ProjectImage{
+        /* border: 5px solid red; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+        height: fit-content;
+        /* width: 100%; */
+        justify-content: center;
+    }
+    .ProjectName{
+        /* border: 5px solid red; */
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* gap: 75px; */
+        /* height: fit-content; */
+    }
+    #img1, #img2, #img3, #img4 {
+        /* height: 200px; */
+        /* width: 300px; */
+        /* border: 3px solid rgb(171, 199, 101); */
+        /* padding: 5px; */
+        /* margin: 10px 0px 10px 0px; */
+    }
+    #p1, #p2, #p3{
+        /* margin-left: 0px; */
+        /* width: 300px; */
+        /* border: 5px solid red; */
+    }
+    
+    
+}

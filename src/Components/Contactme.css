@@ -1,0 +1,28 @@
+.con{
+    height: 88vh;
+    width: 100%;
+    background: linear-gradient(to left,#192c6b, #261a7a,#421160);
+    margin-top: 65px;
+    /* background: linear-gradient(to left,#192c6b, #261a7a,#421160); */
+    /* background: linear-gradient(to left, rgb(15, 1, 56), rgba(91, 20, 94, 0.801),#421160); */
+    background: linear-gradient(to left,#000001, rgb(11, 10, 37),rgb(41, 60, 104));
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(232, 236, 152);
+    font-family: 'Noto Serif Vithkuqi', serif;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.details{
+    color: rgb(150, 190, 175);
+    font-size: 50px;
+
+}
+.typee{
+    color: rgb(132, 117, 104);
+    font-size: 50px;
+}

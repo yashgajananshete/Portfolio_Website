@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit:wght@100;200;300;400;500;600&family=Poppins:wght@400;600&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif+Vithkuqi:wght@400;700&family=Outfit:wght@100;200;300;400;500;600&family=Poppins:wght@400;600&family=Roboto+Slab:wght@100;400;500&display=swap');
+
+/* font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Varela Round', sans-serif; */
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Serif Vithkuqi', serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  background-color: rgb(0, 0, 0);
+  /* background-image: url(D:\yash\webDev\yashkireact\portfolioweb\software-developer.jpg); */
+
+  color: white;
+}
+

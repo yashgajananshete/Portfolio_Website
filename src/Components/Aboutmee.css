@@ -1,0 +1,35 @@
+.AboutMain{
+    margin-top: 60px;
+    /* background-color: rgb(16, 49, 65); */
+    background: linear-gradient(to left,#000001, rgb(11, 10, 37),rgb(41, 60, 104));
+    height: 1000px;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(227, 232, 143);
+    /* font-family: 'Noto Serif Vithkuqi'; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* opacity: 0.9; */
+}
+#abouth22{
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 70px;
+    font-family: 'Noto Serif Vithkuqi';
+}
+#aboutp{
+    margin: 20px 150px 20px 150px;
+    padding-bottom: 30px;
+    line-height: 30px;
+    border: 3px double whitesmoke;
+    padding: 25px;
+    
+}
+#aboutp p{
+    padding-bottom: 20px;
+    text-align: justify;
+}
+#aboutp p b{
+    color: rgb(201, 201, 56);
+}
