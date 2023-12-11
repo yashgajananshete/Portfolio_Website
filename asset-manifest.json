@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Portfolio_Website/static/css/main.01734fef.css",
+    "main.js": "/Portfolio_Website/static/js/main.290cc910.js",
+    "static/media/Shop.jpg": "/Portfolio_Website/static/media/Shop.ea57a07cf27c306d39a0.jpg",
+    "static/media/Portfolio.jpg": "/Portfolio_Website/static/media/Portfolio.8a7700add5fc380d3de0.jpg",
+    "static/media/software-developer.jpg": "/Portfolio_Website/static/media/software-developer.6228aec8de5606e5cd1e.jpg",
+    "static/media/Notepads.jpg": "/Portfolio_Website/static/media/Notepads.a31924c06970fed99cb7.jpg",
+    "static/media/ContactMe.jpg": "/Portfolio_Website/static/media/ContactMe.2a5d08d7b3a50e0926b2.jpg",
+    "static/media/APTITUDE TEST1.png": "/Portfolio_Website/static/media/APTITUDE TEST1.c4e03bcb077baae8f80c.png",
+    "static/media/Snake.jpg": "/Portfolio_Website/static/media/Snake.c43474a0a78360cc0769.jpg",
+    "static/media/BankManagementSystem.jpg": "/Portfolio_Website/static/media/BankManagementSystem.a87084593d154ff8957f.jpg",
+    "index.html": "/Portfolio_Website/index.html",
+    "main.01734fef.css.map": "/Portfolio_Website/static/css/main.01734fef.css.map",
+    "main.290cc910.js.map": "/Portfolio_Website/static/js/main.290cc910.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01734fef.css",
+    "static/js/main.290cc910.js"
+  ]
+}
