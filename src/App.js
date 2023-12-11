@@ -8,12 +8,12 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <Routes>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Route path="/" element={<Homee />} />
         <Route path="/project" element={<Projeect />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-      </Routes>
+      </BrowserRouter>
     </>
   );
 }
