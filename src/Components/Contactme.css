@@ -26,3 +26,30 @@
     color: rgb(132, 117, 104);
     font-size: 50px;
 }
+
+
+
+@media screen and (max-width: 640px) {
+            
+    .con{
+        
+        /* height: 100vh; */
+        /* width: 100%; */
+        font-size: 50px;
+        /* border: 2px solid grey; */
+    }
+    .details{
+        /* border: 2px solid rgb(192, 16, 16); */
+        font-size: 24px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .typee{
+        /* border: 5px solid yellow; */
+        font-size: 30px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+}

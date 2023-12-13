@@ -11,7 +11,7 @@
     /* background-color: aquamarine; */
     height: 60px;
     position: fixed;
-    z-index: 10;
+    z-index: 100;
     width: 100%;
     top:0;
     left:0;
@@ -66,7 +66,7 @@ h1, h4, p, a{
     }
     .nav-menu.active{
         left: 0;
-        background-color: rgb(159, 53, 53);
+        background-color: rgb(20, 10, 40);
     }
     .nav-menu li{
         padding: 1rem 0;
@@ -76,5 +76,8 @@ h1, h4, p, a{
     .bars{
         display: initial;
 
+    }
+    .nav-menu li{
+        font-size: 30px;
     }
 }

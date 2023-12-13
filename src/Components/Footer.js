@@ -14,7 +14,7 @@ const Footer = () => {
                     <h4><FaHome size={"30px"} style={{ color: "white"}}/></h4>
                     <div>
                         
-                        <Link to={"https://www.google.com/maps/@12.9119864,77.6363808,19.79z?entry=ttu"}><p>15<sup>th</sup> main, HSR Layout, Sector 7, Bangalore, Karnataka.</p></Link>
+                        <Link to={"https://www.google.com/maps/@12.9119864,77.6363808,19.79z?entry=ttu"}><p>18<sup>th</sup> Cross, HSR Layout, Sector 7, Bangalore, Karnataka.</p></Link>
                     </div>
                 </div>
                 <div className="phone">
@@ -35,11 +35,11 @@ const Footer = () => {
 
             <div className="right">
                 <h4 className="about" id="footerH4"><b>About me</b></h4>
-                <p id="footerAbout">Highly motivated and skilled programmer with a diverse technical background, eager to contribute innovative solutions and expertise in software development and web technologies to drive professional growth and success.</p>
+                <p id="footerAbout">Motivated programmer skilled in software development and web technologies. Eager to contribute innovative solutions for success.</p>
 
                 <div className="social">
-                    <Link to={"http://instagram.com"}><h4><FaInstagram size={30} style={{ color: "white"}}/></h4></Link>
-                    <Link to={"http://github.com"}><h4><FaGithub size={30} style={{ color: "white"}}/></h4></Link>
+                    <Link to={"https://www.instagram.com/yash.shete.patil/"}><h4><FaInstagram size={30} style={{ color: "white"}}/></h4></Link>
+                    <Link to={"https://github.com/yashgajananshete"}><h4><FaGithub size={30} style={{ color: "white"}}/></h4></Link>
                     <Link to={"http://www.linkedin.com/in/yashshete124"}><h4><FaLinkedin size={30} style={{ color: "white"}}/></h4></Link>
                 </div>
             </div>

@@ -13,7 +13,7 @@ export const Nav = () => {
   const [color, setcolor] = useState(false);
   const changeColor = () => {
     console.log(window.scrollY);
-    if (window.scrollY >= 100) {
+    if (window.scrollY >= 10) {
       setcolor(true);
     } else {
       setcolor(false);

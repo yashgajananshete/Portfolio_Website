@@ -33,3 +33,30 @@
 #aboutp p b{
     color: rgb(201, 201, 56);
 }
+@media screen and (max-width: 640px) {
+
+    .AboutMain{
+        /* border: 2px solid red; */
+        border-bottom: 2px solid white
+        ;
+        height: 100%;
+        width: 100%;
+    }
+    #abouth22{
+        /* border: 2px solid rgb(64, 197, 2); */
+        font-size: 50px;
+    }
+    #aboutp{
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+        /* margin: 5px; */
+        margin-left: 0px;
+        margin-top: 30px;
+        border: none;
+        
+    }
+    p{
+        font-size: 15px;
+    }
+}
