@@ -8,6 +8,8 @@
     justify-content: center;
     align-items: center;
     color: rgb(227, 232, 143);
+    border-bottom: 2px solid white;
+    
     /* font-family: 'Noto Serif Vithkuqi'; */
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     /* opacity: 0.9; */
@@ -22,9 +24,9 @@
     margin: 20px 150px 20px 150px;
     padding-bottom: 30px;
     line-height: 30px;
-    border: 3px double whitesmoke;
+    border: 3px double rgb(240, 222, 182);
     padding: 25px;
-    
+    border-radius: 15px;
 }
 #aboutp p{
     padding-bottom: 20px;
@@ -37,8 +39,7 @@
 
     .AboutMain{
         /* border: 2px solid red; */
-        border-bottom: 2px solid white
-        ;
+        border-bottom: 2px solid white;
         height: 100%;
         width: 100%;
     }

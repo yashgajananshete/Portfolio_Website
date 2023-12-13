@@ -1,4 +1,4 @@
-import { FaGithub, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhone } from "react-icons/fa"
+import { FaGithub, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhone,FaBlog  } from "react-icons/fa"
 import "./FooterStyle.css"
 
 import React from 'react'
@@ -41,6 +41,7 @@ const Footer = () => {
                     <Link to={"https://www.instagram.com/yash.shete.patil/"}><h4><FaInstagram size={30} style={{ color: "white"}}/></h4></Link>
                     <Link to={"https://github.com/yashgajananshete"}><h4><FaGithub size={30} style={{ color: "white"}}/></h4></Link>
                     <Link to={"http://www.linkedin.com/in/yashshete124"}><h4><FaLinkedin size={30} style={{ color: "white"}}/></h4></Link>
+                    <Link to={"https://codefromscratch124.blogspot.com/"}><h4><FaBlog  size={30} style={{ color: "white"}}/></h4></Link>
                 </div>
             </div>
 
