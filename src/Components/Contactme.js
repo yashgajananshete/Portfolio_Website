@@ -11,7 +11,7 @@ export const Contactme = () => {
       <br/>
       <span className="typee">Gmail -  </span><span className="details">yashshete22@gmail.com</span>
       <br/>
-      <span  className="typee">Contact No. -  </span> <span className="details">7499968511</span></div>
+      <span  className="typee">Contact No. -  </span> <span className="details">+91 7499968511</span></div>
   
   </div>
     
